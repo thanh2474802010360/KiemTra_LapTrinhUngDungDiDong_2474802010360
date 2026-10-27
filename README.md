@@ -24,3 +24,12 @@
 ## Minh chứng Câu 2
 
 ![Profile Intent](screenshots/cau2_profile_intent.png)
+
+
+## Minh chứng Câu 3
+
+### Hiển thị danh sách kỹ năng
+![ListView Display](screenshots/cau3_listview_display.png)
+
+### Hiển thị Toast khi chọn kỹ năng
+![Item Click Toast](screenshots/cau3_item_click_toast.png)
