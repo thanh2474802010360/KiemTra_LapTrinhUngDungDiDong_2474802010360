@@ -1,6 +1,6 @@
 
 package com.example.kiemtra_laptrinhungdungdidong_2474802010360
-
+import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
@@ -47,8 +47,13 @@ class LoginActivity : AppCompatActivity() {
 
                 else -> {
                     tvStatus.text = "Xác thực thành công!"
+
+                    val intent = Intent(this, ProfileActivity::class.java)
+                    intent.putExtra("EMAIL", email)
+                    startActivity(intent)
+                }
                 }
             }
         }
     }
-}
+

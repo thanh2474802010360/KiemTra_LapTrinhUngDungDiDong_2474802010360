@@ -20,3 +20,7 @@
 
 ### Xác thực thành công
 ![Validation Success](screenshots/cau1_validation_success.png)
+
+## Minh chứng Câu 2
+
+![Profile Intent](screenshots/cau2_profile_intent.png)
